@@ -47,12 +47,40 @@ header div a {
 .resa{
     background-color: #262626;
     color: white;
+    padding-bottom: 20px;
 }
 h2{
     color: #ECB14C;
     text-transform: uppercase;
 }
-
+.slots{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 30px;
+}
+.slot{
+    display: flex;
+    flex-direction: column;
+}
+.slot input{
+    border-radius: 83px;
+    width: 320px;
+    height: 34px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    width: 119px;
+    height: 34px;
+    background-color: #ECB14C;
+    color: white;
+    margin-top: 50px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+}
 footer{
     font-family: 'Lato light';
     background-color: #262626;
@@ -83,9 +111,9 @@ h3{
     display: flex;
     flex-direction: column;
     margin-left: 41px; 
-    padding-right: 141px;
+    padding-right: 121px;
 }
 .info{
     padding-left: 0;
-    padding-right: 141px;
+    padding-right: 121px;
 }
