@@ -1,3 +1,36 @@
 footer{
+    font-family: 'Lato light';
     background-color: #262626;
+    display: flex;
+    height:218px;
+    padding-left: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_logo{
+    display: flex;
+    align-self: center;
+    width:153px;
+    height:135px;
+    padding-right: 151px;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+h3{
+    color: #ECB14C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.adress,.contact,.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 41px; 
+    padding-right: 141px;
+}
+.info{
+    padding-left: 0;
+    padding-right: 141px;
 }
