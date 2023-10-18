@@ -1,0 +1,18 @@
+.avis  {
+    display:flex;
+    padding: 122px 60px 80px 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.avis .testimony {
+    display: flex;
+    width: 671px;
+    height: 250px;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+
+
