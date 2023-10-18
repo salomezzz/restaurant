@@ -128,8 +128,6 @@ h2{
     height: 34px;
 }
 #button{
-    display: flex;
-    justify-content: center;
     border-radius: 33px;
     width: 119px;
     height: 34px;
@@ -138,6 +136,31 @@ h2{
     margin-top: 50px;
     margin-left: 650px;
     margin-bottom: 20px;
+}
+h2{
+    background-color: #262626;
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 30px; 
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.section input{
+    background-color: #262626;
+    border-radius: 83px;
+    width: 320px;
+    height: 34px;
+}
+#comm{
+    border-radius: 20px;
+    width: 1024px;
+  
 }
 footer{
     font-family: 'Lato light';
