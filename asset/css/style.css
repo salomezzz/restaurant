@@ -16,6 +16,10 @@ img {
 
 @import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 /* 
     MAIN
 */
@@ -135,3 +139,4 @@ h3{
     padding-left: 0;
     padding-right: 141px;
 }
+
