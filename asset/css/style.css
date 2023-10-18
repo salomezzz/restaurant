@@ -105,6 +105,7 @@ header nav ul {
     display: flex;
     gap: 30px;
     list-style: none;
+    text-transform: uppercase;
 }
 header div {
     display: flex;
@@ -123,7 +124,66 @@ header div a {
     align-items: center;
     font-size: 15px;
 }
-
+.resa{
+    background-color: #262626;
+    color: white;
+    padding-bottom: 20px;
+}
+h2{
+    color: #ECB14C;
+    text-transform: uppercase;
+}
+.slots{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 30px;
+}
+.slot{
+    display: flex;
+    flex-direction: column;
+}
+.slot input{
+    border-radius: 83px;
+    width: 320px;
+    height: 34px;
+}
+#button{
+    border-radius: 33px;
+    width: 119px;
+    height: 34px;
+    background-color: #ECB14C;
+    color: white;
+    margin-top: 50px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+}
+h2{
+    background-color: #262626;
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 30px; 
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.section input{
+    background-color: #262626;
+    border-radius: 83px;
+    width: 320px;
+    height: 34px;
+}
+#comm{
+    border-radius: 20px;
+    width: 1024px;
+  
+}
 footer{
     font-family: 'Lato light';
     background-color: #262626;
