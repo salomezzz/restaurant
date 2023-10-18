@@ -1,3 +1,6 @@
+body{
+    font-family: 'Lato';
+}
 header {
     display: flex;
     background-color: #262626;
@@ -12,9 +15,11 @@ header img {
 }
 header nav ul li a {
     display: flex;
+    flex-direction: row;
     color:#ECB14C;
     text-decoration: none;
     font-size: 20px;
+    text-transform: uppercase;
 }
 header nav ul {
     display: flex;
@@ -38,6 +43,7 @@ header div a {
     align-items: center;
     font-size: 15px;
 }
+
 
 footer{
     font-family: 'Lato light';
