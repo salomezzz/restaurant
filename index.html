@@ -37,14 +37,14 @@
             <img src="asset/img/food_4_dark.jpg" alt="photo d'un plat">
             <img src="asset/img/food_7_dark.jpg" alt="photo d'un plat">
         </div>
-        <div>
+        <div class="bottom-food">
             <img src="asset/img/food_9_dark.jpg" alt="photo d'un cuisiner">
             <h2>notre savoir faire</h2>
             <p>Chez nous, la bière est bien plus qu'une simple boisson. C'est une passion, un art. Nous brassons notre propre sélection de bières artisanales, alliant tradition et innovation pour créer des saveurs uniques. Notre équipe de brasseurs talentueux travaille avec dévouement pour vous offrir des bières fraîches, riches en caractère et en arômes.</p>
             <p>Notre cuisine est une fusion de traditions culinaires et de créativité. Notre chef élabore des plats gourmands en utilisant des ingrédients de première qualité, pour vous offrir une expérience gastronomique exceptionnelle. Que vous optiez pour nos plats classiques ou nos créations du moment, chaque bouchée est préparée avec soin et passion.</p>
             <p>Venez partager notre passion pour la bière, la cuisine et l'ambiance conviviale. Nous sommes impatients de vous accueillir et de vous offrir une expérience mémorable au sein de notre établissement.</p>
         </div>
-        <div>
+        <div class="event" id="event">
             <p>événements</p>
             <ul>
                 <li>happy hour -----16h-19h lun-ven</li>
@@ -53,6 +53,60 @@
             </ul>
               <img src="asset/img/event_1_dark.jp" alt="photo d'un événement">
         </div>
+        <section class="avis" id="avis">
+            <h2>Avis</h2>
+            <div>
+                <article>
+                    <img src="/asset/img/testimonial_2_dark.jpg" alt="photo de profil">
+                    <div class="testimony">
+                        <img src="" alt="note">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, distinctio temporibus, voluptatem quos id vero reprehenderit molestias doloremque assumenda tempora reiciendis ducimus aliquam necessitatibus nobis blanditiis eaque culpa mollitia cupiditate!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <img src="/asset/img/testimonial_1_dark.jpg" alt="photo de profil">
+                    <div class="testimony">
+                        <img src="" alt="note">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, distinctio temporibus, voluptatem quos id vero reprehenderit molestias doloremque assumenda tempora reiciendis ducimus aliquam necessitatibus nobis blanditiis eaque culpa mollitia cupiditate!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="quote">
+            <img src="/asset/img/chef_dark.jpg" alt="Photo de Monsieur Bouillon">
+            <div>
+                <p>En cuisine, chaque plat est une toile, chaque ingrédient est une couleur, moi, je suis l'artiste.</p>
+                <img src="" alt="Signature de Monsieur Bouillon">
+            </div>
+        </section>
+        <section class="resa" id="resa">
+            <h2>Réservation</h2>
+            <form action="reservations">
+                <label for="surname">Prénom:</label>
+               <input type="text" id="surname" placeholder="Votre prénom">
+               <label for="name">Nom:</label>
+               <input type="text" id="name" placeholder="Votre nom">
+               <label for="ph_num">Tel:</label>
+               <input type="text" id="ph_num" placeholder="(+33) 0X XX XX XX">
+               <label for="nb_peps">Nombre de personnes:</label>
+               <input type="text" id="nb_peps" placeholder="Nombre de personnes">
+               <label for="date">Date:</label>
+               <input type="date" id="date">
+               <label for="time">Heure:</label>
+               <input type="time" id="time" >
+               <input type="submit" value="Réserver">
+            </form>
+        </section>
+        <section class="comm" id="comm">
+            <h2>Commentez</h2>
+            <form action="comment">
+                <label for="surname">Prénom:</label>
+                <input type="text" id="surname" placeholder="Votre prénom">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" placeholder="Votre nom">
+                <textarea name="" id="comm" placeholder="Rédigez votre message..."></textarea>
+            </form>
+        </section>
     </main>
     <h2>Réservation</h2>
     <form action="reservations">
