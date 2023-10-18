@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    background-color: #262626;
+    justify-content: space-around;
+    align-items: center;
+}
+header img {
+    display: flex;
+    flex-direction: row;    
+    height: 109px;
+    width: 81px;
+}
+header nav ul li a {
+    display: flex;
+    color:#ECB14C;
+    text-decoration: none;
+    font-size: 20px;
+}
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+header div {
+    display: flex;
+    justify-content: flex-end;  
+    gap: 20px;
+}
+header div img {
+    height: 20px;
+    width: 20px;
+    display: flex;
+} 
+
+header div a {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
