@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
     RE$ET
 */
@@ -55,12 +56,32 @@ h2 {
 .meals {
     display: flex;
     flex-wrap: wrap;
-    padding: 5vh 5.5vw;
-    gap: 4vw;
+    align-items: center;
+    padding: 5% 0% 0% 8%;
+    gap: 5%;
+    min-height: 95vh;
 }
 .meals img {
-    width: calc(80vw / 3);
-    box-shadow: rgba(0, 0, 0, .20) 4px 4px 6px;
+    width: calc(80% / 3);
+    box-shadow: 4px 4px 3px 0px rgba(41, 41, 41, 0.25);
+}
+.plat-1:hover {
+    content: url(/asset/img/food_11_dark_description.png);
+}
+.plat-2:hover {
+    content: url(/asset/img/food_1_dark.png);
+}
+.plat-3:hover {
+    content: url(/asset/img/food_10_dark.png);
+}
+.plat-4:hover {
+    content: url(/asset/img/food_5_dark.png);
+}
+.plat-5:hover {
+    content: url(/asset/img/food_4_dark.png);
+}
+.plat-6:hover {
+    content: url(/asset/img/food_7_dark.png);
 }
 header {
     display: flex;
@@ -140,3 +161,7 @@ h3{
     padding-right: 141px;
 }
 
+=======
+
+
+>>>>>>> origin/css-carte
