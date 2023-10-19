@@ -42,6 +42,7 @@ img {
 }
 h2 {
     font-family: 'Spinnaker', sans-serif;
+    background-color: #262626;
     text-transform: uppercase;
     font-size: 3rem;
     color: #ECB14C;
@@ -123,42 +124,6 @@ header div a {
     align-items: center;
     font-size: 15px;
 }
-.resa{
-    background-color: #262626;
-    color: white;
-    padding-bottom: 20px;
-}
-h2{
-    color: #ECB14C;
-    text-transform: uppercase;
-}
-.slots{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
-    justify-content: center;
-    gap: 30px;
-}
-.slot{
-    display: flex;
-    flex-direction: column;
-}
-.slot input{
-    border-radius: 83px;
-    width: 320px;
-    height: 34px;
-}
-#button{
-    border-radius: 33px;
-    width: 119px;
-    height: 34px;
-    background-color: #ECB14C;
-    color: white;
-    margin-top: 50px;
-    margin-left: 650px;
-    margin-bottom: 20px;
-}
-
 footer{
     font-family: 'Lato light';
     background-color: #262626;
@@ -233,12 +198,6 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-header img {
-    display: flex;
-    flex-direction: row;    
-    height: 109px;
-    width: 81px;
-}
 header nav ul li a {
     display: flex;
     flex-direction: row;
@@ -275,13 +234,6 @@ header div a {
     color: white;
     padding-bottom: 20px;
 }
-h2{
-    color: #ECB14C;
-    text-transform: uppercase;
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
 .slots{
     display: flex;
     flex-direction: row;
@@ -309,32 +261,6 @@ h2{
     margin-top: 50px;
     margin-left: 650px;
     margin-bottom: 20px;
-}
-footer{
-    font-family: 'Lato light';
-    background-color: #262626;
-    display: flex;
-    height:218px;
-    padding-left: 30px;
-    flex-direction: row;
-    align-items: center;
-}
-.footer_logo{
-    display: flex;
-    align-self: center;
-    width:153px;
-    height:135px;
-    padding-right: 151px;
-}
-h4{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: white;
-}
-h3{
-    color: #ECB14C;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 .adress,.contact,.info{
     display: flex;
@@ -378,60 +304,6 @@ h3{
 .event li {
     display: flex;
 }
-/* 
-    RE$ET
-*/
-
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-:root{
-    font-size: 62.5%;
-}
-img {
-    width: 100%
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-
-/* 
-    MAIN
-*/
-
-.carte {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-.title  {
-    background-color: #262626;
-    display: flex;
-    width: 10%;
-    margin-top: 5vh;
-}
-.title.deux {
-    width: 7.5%;
-}
-.title.trois {
-    width: 17%;
-}
-h2 {
-    font-family: 'Spinnaker', sans-serif;
-    text-transform: uppercase;
-    font-size: 3rem;
-    color: #ECB14C;
-    display: flex;
-    margin: 2vh 0;
-    padding: 1vh 1vw;
-    font-weight: lighter;
-    align-items: center;
-}
 .meals {
     display: flex;
     flex-wrap: wrap;
@@ -447,12 +319,6 @@ header {
     background-color: #262626;
     justify-content: space-around;
     align-items: center;
-}
-header img {
-    display: flex;
-    flex-direction: row;    
-    height: 109px;
-    width: 81px;
 }
 header nav ul li a {
     display: flex;
@@ -482,30 +348,8 @@ header div a {
     align-items: center;
     font-size: 15px;
 }
-.resa{
-    background-color: #262626;
-    color: white;
-    padding-bottom: 20px;
-}
-h2{
-    color: #ECB14C;
-    text-transform: uppercase;
-}
 .slots{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
-    justify-content: center;
     gap: 30px;
-}
-.slot{
-    display: flex;
-    flex-direction: column;
-}
-.slot input{
-    border-radius: 83px;
-    width: 320px;
-    height: 34px;
 }
 #button{
     border-radius: 33px;
@@ -516,9 +360,6 @@ h2{
     margin-top: 50px;
     margin-left: 650px;
     margin-bottom: 20px;
-}
-h2{
-    background-color: #262626;
 }
 .sections{
     display: flex;
@@ -555,40 +396,4 @@ h2{
     padding-left: 20px;
     padding-top: 15px;
     margin-bottom: 30px;
-}
-footer{
-    font-family: 'Lato light';
-    background-color: #262626;
-    display: flex;
-    height:218px;
-    padding-left: 30px;
-    flex-direction: row;
-    align-items: center;
-}
-.footer_logo{
-    display: flex;
-    align-self: center;
-    width:153px;
-    height:135px;
-    padding-right: 151px;
-}
-h4{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: white;
-}
-h3{
-    color: #ECB14C;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.adress,.contact,.info{
-    display: flex;
-    flex-direction: column;
-    margin-left: 41px; 
-    padding-right: 141px;
-}
-.info{
-    padding-left: 0;
-    padding-right: 141px;
 }
