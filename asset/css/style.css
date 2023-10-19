@@ -176,6 +176,16 @@ h2{
     padding-top: 15px;
     margin-bottom: 30px;
 }
+#button1{
+    border-radius: 33px;
+    width: 119px;
+    height: 34px;
+    background-color: #000;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 400px;
+}
 footer{
     font-family: 'Lato light';
     background-color: #262626;
