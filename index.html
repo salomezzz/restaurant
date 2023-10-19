@@ -16,36 +16,42 @@
                 <li><a href="avis">avis</a> </li>
                 <li><a href="réservation">réservation</a> </li>
             </ul>
-            <a href="03 23 42 27 89">03 23 42 27 89</a>
         </nav>
-    <div>
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
+        <div>
+            <a class="téléphone" href="03 23 42 27 89">03 23 42 27 89</a>
+            <img src="asset/img/icones/instagram.svg" alt="logo instagram">
+            <img src="asset/img/icones/facebook.svg" alt="logo facebook">
+        </div>
     </header>
     <figure>
         <img src="asset/img/testimonal_background_dark.jpg" alt="photo d'arriere plan d'un bar">
         <p>Bar & Brasserie</p>
     </figure>
     <main>
-        <div id="carte">carte</div>
-        <div>
-            <img src="asset/img/food_11_dark.jpg" alt="photo d'un plat">
-            <img src="asset/img/food_1_dark.jpg" alt="photo d'un plat">
-            <img src="asset/img/food_10_dark.jpg" alt="photo d'un plat">
-            <img src="asset/img/food_5_dark.jpg" alt="photo d'un plat">
-            <img src="asset/img/food_4_dark.jpg" alt="photo d'un plat">
-            <img src="asset/img/food_7_dark.jpg" alt="photo d'un plat">
-        </div>
-        <div class="bottom-food">
-            <img src="asset/img/food_9_dark.jpg" alt="photo d'un cuisiner">
-            <h2>notre savoir faire</h2>
-            <p>Chez nous, la bière est bien plus qu'une simple boisson. C'est une passion, un art. Nous brassons notre propre sélection de bières artisanales, alliant tradition et innovation pour créer des saveurs uniques. Notre équipe de brasseurs talentueux travaille avec dévouement pour vous offrir des bières fraîches, riches en caractère et en arômes.</p>
-            <p>Notre cuisine est une fusion de traditions culinaires et de créativité. Notre chef élabore des plats gourmands en utilisant des ingrédients de première qualité, pour vous offrir une expérience gastronomique exceptionnelle. Que vous optiez pour nos plats classiques ou nos créations du moment, chaque bouchée est préparée avec soin et passion.</p>
-            <p>Venez partager notre passion pour la bière, la cuisine et l'ambiance conviviale. Nous sommes impatients de vous accueillir et de vous offrir une expérience mémorable au sein de notre établissement.</p>
-        </div>
+        <section class="carte">
+            <div class="title" id="carte">
+                <h2>carte</h2>
+            </div>
+            <div class="meals">
+                <img class="plat-1" src="asset/img/food_11_dark.jpg" alt="photo d'un plat">
+                <img class="plat-2" src="asset/img/food_1_dark.jpg" alt="photo d'un plat">
+                <img class="plat-3" src="asset/img/food_10_dark.jpg" alt="photo d'un plat">
+                <img class="plat-4" src="asset/img/food_5_dark.jpg" alt="photo d'un plat">
+                <img class="plat-5" src="asset/img/food_4_dark.jpg" alt="photo d'un plat">
+                <img class="plat-6" src="asset/img/food_7_dark.jpg" alt="photo d'un plat">
+            </div>
+            <div class="bottom-food">
+                <img src="asset/img/food_9_dark.jpg" alt="photo d'un cuisiner">
+                <div class="texte">
+                    <h4>notre savoir faire</h4>
+                    <p>Chez nous, la bière est bien plus qu'une simple boisson. C'est une passion, un art. Nous brassons notre propre sélection de bières artisanales, alliant tradition et innovation pour créer des saveurs uniques. Notre équipe de brasseurs talentueux travaille avec dévouement pour vous offrir des bières fraîches, riches en caractère et en arômes.</p>
+                    <p>Notre cuisine est une fusion de traditions culinaires et de créativité. Notre chef élabore des plats gourmands en utilisant des ingrédients de première qualité, pour vous offrir une expérience gastronomique exceptionnelle. Que vous optiez pour nos plats classiques ou nos créations du moment, chaque bouchée est préparée avec soin et passion.</p>
+                    <p>Venez partager notre passion pour la bière, la cuisine et l'ambiance conviviale. Nous sommes impatients de vous accueillir et de vous offrir une expérience mémorable au sein de notre établissement.</p>
+                </div>
+            </div>
+        </section>
         <div class="event" id="event">
-            <p>événements</p>
+            <h2>événements</h2>
             <ul>
                 <li>happy hour -----16h-19h lun-ven</li>
                 <li>concert --------18h30   6 nov.2023</li>
@@ -54,7 +60,9 @@
               <img src="asset/img/event_1_dark.jp" alt="photo d'un événement">
         </div>
         <section class="avis" id="avis">
-            <h2>Avis</h2>
+            <div class="title deux">
+                <h2>Avis</h2>
+            </div>
             <div>
                 <article>
                     <img src="/asset/img/testimonial_2_dark.jpg" class="pdp" alt="photo de profil">
@@ -81,30 +89,52 @@
         </section>
         <section class="resa" id="resa">
             <h2>Réservation</h2>
-            <form action="reservations">
-                <label for="surname">Prénom:</label>
-               <input type="text" id="surname" placeholder="Votre prénom">
-               <label for="name">Nom:</label>
-               <input type="text" id="name" placeholder="Votre nom">
-               <label for="ph_num">Tel:</label>
-               <input type="text" id="ph_num" placeholder="(+33) 0X XX XX XX">
-               <label for="nb_peps">Nombre de personnes:</label>
-               <input type="text" id="nb_peps" placeholder="Nombre de personnes">
-               <label for="date">Date:</label>
-               <input type="date" id="date">
-               <label for="time">Heure:</label>
-               <input type="time" id="time" >
-               <input type="submit" value="Réserver">
+            <form action="reservations" >
+                <div class="slots">
+                    <div class="slot">
+                        <label for="surname">Prénom:</label>
+                        <input type="text" id="surname" placeholder="   Votre prénom">
+                    </div>
+                    <div class="slot">
+                        <label for="name">Nom:</label>
+                        <input type="text" id="name" placeholder="   Votre nom">
+                    </div>
+                    <div class="slot">
+                        <label for="ph_num">Tel:</label>
+                        <input type="text" id="ph_num" placeholder="   (+33) 0X XX XX XX">
+                    </div>
+                    <div class="slot">
+                        <label for="nb_peps">Nombre de personnes:</label>
+                        <input type="text" id="nb_peps" placeholder="   Nombre de personnes">
+                    </div>
+                    <div class="slot">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="slot">
+                        <label for="time">Heure:</label>
+                        <input type="time" id="time">
+                    </div>
+                </div>
+                    <input type="submit" value="Réserver" id="button">
             </form>
         </section>
         <section class="comm" id="comm">
-            <h2>Commentez</h2>
+            <div class="title trois">
+                <h2>Commentez</h2>
+            </div>
             <form action="comment">
-                <label for="surname">Prénom:</label>
-                <input type="text" id="surname" placeholder="Votre prénom">
-                <label for="name">Nom:</label>
-                <input type="text" id="name" placeholder="Votre nom">
-                <textarea name="" id="comm" placeholder="Rédigez votre message..."></textarea>
+                <div class="sections">
+                    <div class="section">
+                        <label for="surname">Prénom:</label>
+                        <input type="text" id="surname" placeholder="Votre prénom" maxlength="15" required>
+                    </div>
+                    <div class="section">
+                        <label for="name" >Nom:</label>
+                        <input type="text" id="name" placeholder="Votre nom" maxlength="15" required>
+                    </div>
+                </div>
+                <textarea name="" id="comm" placeholder="Rédigez votre message..." maxlength="1000" required></textarea>
             </form>
         </section>
     </main>
