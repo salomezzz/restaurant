@@ -363,6 +363,7 @@ h3{
     padding: 5vh 10vw;
     justify-content: center;
 }
+<<<<<<< HEAD
 body{
     font-family: 'Lato';
 }
@@ -485,3 +486,36 @@ h3{
     padding-left: 0;
     padding-right: 121px;
 }
+=======
+.event {
+    display: flex;
+}
+.event img {
+    width: 50%;
+}
+.text-event {
+    width: 50%;
+    background-color: #262626;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+.event .text-event ul li span {
+    font-family: 'Pinyon Script', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.event ul {
+    color: white;
+    display: flex;
+    height: 45vh;
+    flex-direction: column;
+    padding: 0 0 5vh 10vw;
+    justify-content: space-evenly;
+}
+.event li {
+    display: flex;
+}
+>>>>>>> event
