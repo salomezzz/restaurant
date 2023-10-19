@@ -236,9 +236,7 @@ header div a {
 h2{
     color: #ECB14C;
     text-transform: uppercase;
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 .slots{
     display: flex;
@@ -415,7 +413,7 @@ header div a {
 .avis  {
     display:flex;
     flex-direction: column;
-    padding: 0px 60px 80px 60px;
+    padding: 0px 60px 80px 0px;
     align-items: flex-start;
     align-self: stretch;
 }
@@ -428,7 +426,7 @@ header div a {
 }
 .avis .testimony {
     display: flex;
-    width: 292px;
+    width: 25vw;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -457,6 +455,9 @@ header div a {
 .avis .note {
     width: 167.12px;
     height: 28.96px;
+}
+.nom {
+    align-self: flex-end;
 }
 .quote {
     display: flex;
