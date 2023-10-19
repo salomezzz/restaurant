@@ -144,12 +144,17 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap ;
-    justify-content: center;
     gap: 30px; 
 }
 .section{
     display: flex;
     flex-direction: column;
+    font-family: 'Lato';
+    font-size: medium;
+}
+.sections label{
+    margin-left: 10px;
+    margin-bottom: 2px;
 }
 .section input{
     background-color: #262626;
@@ -157,10 +162,19 @@ h2{
     width: 320px;
     height: 34px;
 }
-#comm{
+.sections,#comment{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+#comment{
     border-radius: 20px;
+    border-width: 3px;
+    border-color: #000;
     width: 1024px;
-  
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 30px;
 }
 footer{
     font-family: 'Lato light';
