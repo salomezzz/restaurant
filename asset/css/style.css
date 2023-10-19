@@ -402,6 +402,16 @@ header div a {
     padding-top: 15px;
     margin-bottom: 30px;
 }
+#button1{
+    border-radius: 33px;
+    width: 119px;
+    height: 34px;
+    background-color: #000;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 400px;
+}
 .avis  {
     display:flex;
     flex-direction: column;
@@ -448,3 +458,6 @@ header div a {
     width: 167.12px;
     height: 28.96px;
 }
+
+
+
