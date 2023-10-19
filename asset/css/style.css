@@ -87,6 +87,7 @@ header {
     background-color: #262626;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Lato';
 }
 header img {
     display: flex;
