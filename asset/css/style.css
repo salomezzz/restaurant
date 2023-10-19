@@ -228,10 +228,16 @@ header div a {
     align-items: center;
     font-size: 15px;
 }
-
 .resa{
     background-color: #262626;
     color: white;
+    padding-bottom: 20px;
+}
+h2{
+    color: #ECB14C;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 20px;
     padding-bottom: 20px;
 }
 .slots{
@@ -239,7 +245,6 @@ header div a {
     flex-direction: row;
     flex-wrap: wrap ;
     justify-content: center;
-    gap: 85px;
 }
 .slot{
     display: flex;
