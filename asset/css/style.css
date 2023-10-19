@@ -52,13 +52,16 @@ header div a {
 h2{
     color: #ECB14C;
     text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 .slots{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap ;
     justify-content: center;
-    gap: 30px;
+    gap: 85px;
 }
 .slot{
     display: flex;
