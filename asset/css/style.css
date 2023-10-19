@@ -81,6 +81,9 @@ h2 {
 .plat-6:hover {
     content: url(/asset/img/food_7_dark.png);
 }
+/* 
+HEADER 
+*/
 header {
     display: flex;
     background-color: #262626;
@@ -116,7 +119,6 @@ header div img {
     width: 20px;
     display: flex;
 } 
-
 header div a {
     display: flex;
     color: white;
