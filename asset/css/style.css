@@ -219,3 +219,30 @@ h3{
     padding-left: 0;
     padding-right: 141px;
 }
+.bottom-food {
+    display: flex;
+    margin: 5vh 0;
+}
+.bottom-food img {
+    width: 50%;
+}
+.bottom-food h4, .bottom-food p {
+    font-size: 3.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 2vh 0;
+}
+.bottom-food h4 {
+    padding: 5vh 0;
+}
+.bottom-food p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: none;
+}
+.texte {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10vw;
+    justify-content: center;
