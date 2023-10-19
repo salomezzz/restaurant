@@ -1,3 +1,118 @@
+header {
+    display: flex;
+    background-color: #262626;
+    justify-content: space-around;
+    align-items: center;
+}
+header img {
+    display: flex;
+    flex-direction: row;    
+    height: 109px;
+    width: 81px;
+}
+header nav ul li a {
+    display: flex;
+    color:#ECB14C;
+    text-decoration: none;
+    font-size: 20px;
+}
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+header div {
+    display: flex;
+    justify-content: flex-end;  
+    gap: 20px;
+}
+header div img {
+    height: 20px;
+    width: 20px;
+    display: flex;
+} 
+
+header div a {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
+footer{
+    font-family: 'Lato light';
+    background-color: #262626;
+    display: flex;
+    height:218px;
+    padding-left: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_logo{
+    display: flex;
+    align-self: center;
+    width:153px;
+    height:135px;
+    padding-right: 151px;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+h3{
+    color: #ECB14C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.adress,.contact,.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 41px; 
+    padding-right: 141px;
+}
+.info{
+    padding-left: 0;
+    padding-right: 141px;
+}
+.avis  {
+    display:flex;
+    padding: 122px 60px 80px 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.avis .testimony {
+    display: flex;
+    width: 671px;
+    height: 250px;
+    align-items: flex-start;
+    gap: 5px;
+    
+}
+
+.avis .testimony {
+    display: flex;
+    width: 292px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.avis .pdp {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 100%;
+}
+
+.avis .note {
+    width: 167.12px;
+    height: 28.96px;
+    
+}
 /* 
     RE$ET
 */
