@@ -19,7 +19,7 @@
     display: flex;
     width: 292px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-betw een;
     align-items: flex-start;
     flex-shrink: 0;
     align-self: stretch;
